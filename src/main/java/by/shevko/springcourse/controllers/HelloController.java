@@ -1,4 +1,4 @@
-package by.shevko.springcourse.controller;
+package by.shevko.springcourse.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,6 +9,6 @@ public class HelloController {
     @GetMapping("/hw")
     public String hello(){
         System.out.println("hw request");
-        return "hello_w";
+        return "hello";
     }
 }
